@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.interncell.controllers.MainController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #00B796;">
+         <children>
+            <Rectangle disable="true" fill="WHITE" height="362.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="15.0" width="364.0" AnchorPane.leftAnchor="458.0" AnchorPane.topAnchor="166.0">
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" offsetX="10.0" offsetY="10.0">
+                     <color>
+                        <Color opacity="0.5043478012084961" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Button id="loginBtn" layoutX="523.0" layoutY="327.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#loginAction" prefHeight="63.31" prefWidth="265.0" stylesheets="@css/main.css" text="LOGIN" AnchorPane.leftAnchor="523.0" AnchorPane.topAnchor="327.0">
+               <font>
+                  <Font size="96.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <Button id="registerBtn" layoutX="524.0" layoutY="437.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#registerAction" prefHeight="63.31" prefWidth="265.0" stylesheets="@css/main.css" text="REGISTER" AnchorPane.leftAnchor="524.0" AnchorPane.topAnchor="437.0">
+               <font>
+                  <Font name="Rockwell" size="33.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <ImageView fx:id="logo" fitHeight="178.0" fitWidth="229.0" layoutX="542.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="542.0" AnchorPane.topAnchor="177.0">
+               <image>
+                  <Image url="@../i2.png" />
+               </image>
+            </ImageView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

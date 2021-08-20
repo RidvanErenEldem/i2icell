@@ -1,0 +1,15 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "C:\\Users\\ridva\\Downloads\\Programs\\tilesfx-16.0.4.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
+        "C:\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar"
+    ]
+}
