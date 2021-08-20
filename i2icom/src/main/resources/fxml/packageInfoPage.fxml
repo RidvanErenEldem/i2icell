@@ -9,6 +9,7 @@
 <?import javafx.scene.shape.Polygon?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+<?import java.util.ArrayList?>
 
 <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #00B796;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.interncell.controllers.PackageInfoPageController">
    <content>
@@ -55,7 +56,7 @@
                   </DropShadow>
                </effect>
             </Rectangle>
-            <Rectangle fill="WHITE" height="140.0" layoutX="903.0" layoutY="184.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.rightAnchor="76.0">
+            <Rectangle fill="WHITE" height="140.0" layoutX="853.0" layoutY="182.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.rightAnchor="83.5">
                <effect>
                   <DropShadow offsetX="5.0" offsetY="5.0">
                      <color>
@@ -325,47 +326,137 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Label layoutX="265.0" layoutY="239.0" text="600">
+            <Label fx:id="usedMinutes1" layoutX="265.0" layoutY="239.0" text="600">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="1038.0" layoutY="239.0" text="600">
+            <Label fx:id="usedMinutes3" layoutX="1038.0" layoutY="239.0" text="600">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="647.0" layoutY="241.0" text="600">
+            <Label fx:id="usedMinutes2" layoutX="647.0" layoutY="239.0" text="600">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="269.0" layoutY="438.0" text="Label">
+            <Label fx:id="usedSms1" layoutX="265.0" layoutY="432.0" text="100">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="279.0" layoutY="448.0" text="Label">
+            <Label fx:id="usedSms3" layoutX="1038.0" layoutY="432.0" text="100">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="289.0" layoutY="458.0" text="Label">
+            <Label fx:id="usedSms2" layoutX="647.0" layoutY="432.0" text="100">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="265.0" layoutY="628.0" text="Label">
+            <Label fx:id="usedMB1" layoutX="265.0" layoutY="623.0" text="1900">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="275.0" layoutY="638.0" text="Label">
+            <Label fx:id="usedMB2" layoutX="647.0" layoutY="623.0" text="1900">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="285.0" layoutY="648.0" text="Label">
+            <Label fx:id="usedMB3" layoutX="1038.0" layoutY="623.0" text="1900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="258.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="258.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="258.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="451.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="451.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="451.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="642.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="642.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="642.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMinutes1" layoutX="265.0" layoutY="280.0" text="400">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMinutes3" layoutX="1038.0" layoutY="280.0" text="400">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMinutes2" layoutX="647.0" layoutY="280.0" text="400">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingSms1" layoutX="265.0" layoutY="471.0" text="900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingSms3" layoutX="1038.0" layoutY="472.0" text="900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingSms2" layoutX="647.0" layoutY="472.0" text="900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMB1" layoutX="265.0" layoutY="662.0" text="148">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMB2" layoutX="647.0" layoutY="662.0" text="148">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMB3" layoutX="1038.0" layoutY="662.0" text="148">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
@@ -393,6 +484,36 @@
                <fx:reference source="voiceEndDate3" />
                <fx:reference source="smsEndDate3" />
                <fx:reference source="dataEndDate3" />
+            </ArrayList>
+            <ArrayList fx:id="usedMBs">
+               <fx:reference source="usedMB1" />
+               <fx:reference source="usedMB2" />
+               <fx:reference source="usedMB3" />
+            </ArrayList>
+            <ArrayList fx:id="usedMinutes">
+               <fx:reference source="usedMinutes1" />
+               <fx:reference source="usedMinutes2" />
+               <fx:reference source="usedMinutes3" />
+            </ArrayList>
+            <ArrayList fx:id="usedSmss">
+               <fx:reference source="usedSms1" />
+               <fx:reference source="usedSms2" />
+               <fx:reference source="usedSms3" />
+            </ArrayList>
+            <ArrayList fx:id="remainMinutes">
+               <fx:reference source="remainingMinutes1" />
+               <fx:reference source="remainingMinutes2" />
+               <fx:reference source="remainingMinutes3" />
+            </ArrayList>
+            <ArrayList fx:id="remainMBs">
+               <fx:reference source="remainingMB1" />
+               <fx:reference source="remainingMB2" />
+               <fx:reference source="remainingMB3" />
+            </ArrayList>
+            <ArrayList fx:id="remainSmss">
+               <fx:reference source="remainingSms1" />
+               <fx:reference source="remainingSms2" />
+               <fx:reference source="remainingSms3" />
             </ArrayList>
          </fx:define>
       </AnchorPane>

@@ -7,6 +7,7 @@ public class User {
     private String msisdn;
     private String email;
     private boolean loginSuccess;
+    private String jwt;
 
     public int getUserId() {
         return userId;
@@ -54,6 +55,13 @@ public class User {
 
     public void setLoginSuccess(boolean loginSuccess) {
         this.loginSuccess = loginSuccess;
+    }
+    public String getJwt() {
+        return jwt;
+    }
+
+    public void setJwt(String jwt) {
+        this.jwt = jwt;
     }
 }
 

@@ -20,6 +20,7 @@ public class SetStage {
             stage.getIcons().add(new Image(getClass().getResourceAsStream("/i2.png")));
             Parent root = FXMLLoader.load(getClass().getResource("/fxml"+fxmlName));
             Scene addFrame = new Scene(root);
+            stage.setResizable(false);
             stage.setScene(addFrame);     
             stage.show();
         } catch (IOException e) {

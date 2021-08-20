@@ -28,7 +28,7 @@ public class InfoPageController{
     @FXML private void showAction(ActionEvent event)
     {
         var stage = new Stage();
-        new PackageInfoPage().start(stage);
+        new PackageInfoPage().start(stage, user);
         Node source = (Node)event.getSource(); 
         var infoPageStage = (Stage) source.getScene().getWindow();
         infoPageStage.close();

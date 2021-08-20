@@ -85,3 +85,613 @@ javafx.fxml.LoadException: Value "dataEndDate2" does not exist.
 13:30:23.903 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
 13:30:24.978 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
 13:30:25.241 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+14:33:09.766 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:33:41.825 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:33:42.726 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+14:33:43.009 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+14:33:43.952 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: ArrayList is not a valid type.
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/packageInfoPage.fxml:465
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.createElement(FXMLLoader.java:2875) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2805) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.PackageInfoPage.start(PackageInfoPage.java:8) ~[classes/:?]
+	at com.interncell.controllers.InfoPageController.showAction(InfoPageController.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+14:35:48.010 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:35:51.640 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:35:53.016 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:35:53.286 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:35:56.682 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:36:03.997 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+14:36:04.258 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+14:38:51.299 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:38:55.444 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:38:57.478 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+14:38:57.737 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+14:41:15.757 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:41:18.289 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:41:20.251 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+14:41:20.514 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+14:51:23.390 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:51:30.646 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+14:51:33.727 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+14:51:33.990 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:23:17.699 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:23:32.976 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:23:34.811 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+15:23:35.082 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:23:35.914 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: Value "usedSms" does not exist.
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/packageInfoPage.fxml:501
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ReferenceElement.constructValue(FXMLLoader.java:1215) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:756) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2808) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.PackageInfoPage.start(PackageInfoPage.java:8) ~[classes/:?]
+	at com.interncell.controllers.InfoPageController.showAction(InfoPageController.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:24:22.853 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:24:26.198 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:24:27.569 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+15:24:27.841 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:28:50.417 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:28:54.581 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:28:55.196 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:28:55.839 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:29:03.252 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:29:03.487 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+15:29:04.719 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: password.534945.password password.534945.password
+15:29:04.985 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:20:08.455 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:20:13.454 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:20:14.095 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:20:15.237 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:22:11.152 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+16:22:16.905 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:22:22.537 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - null null null null 0
+16:23:21.928 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:23:26.247 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:26.437 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:26.795 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:27.100 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:27.315 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:27.663 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:28.115 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:28.256 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:28.480 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:28.715 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+16:23:29.524 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:23:30.066 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+16:23:32.107 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5078673367 password.534945.password
+16:23:33.108 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - null null null null 0
+16:31:02.913 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:31:19.807 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+16:31:25.900 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 1234512345
+16:31:27.319 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - null null null null 0
+17:06:52.797 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:07:24.845 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+17:07:29.638 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:07:30.301 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - ahh
+17:08:09.704 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:08:14.000 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+17:08:14.376 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+17:08:21.885 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+17:08:22.151 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+17:08:22.972 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:08:23.487 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+17:31:32.515 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:31:36.772 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+17:31:37.436 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+17:31:37.906 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+17:31:44.823 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+17:31:49.908 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:31:50.181 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+17:50:05.047 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:50:14.450 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:50:14.727 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+17:51:30.861 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:51:33.882 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:51:34.144 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+18:07:06.971 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+18:07:11.762 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+18:07:12.036 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+18:09:47.174 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+18:09:51.911 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+18:09:52.191 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+18:09:53.530 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: 
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/packageInfoPage.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.PackageInfoPage.start(PackageInfoPage.java:22) ~[classes/:?]
+	at com.interncell.controllers.InfoPageController.showAction(InfoPageController.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.interncell.controllers.PackageInfoPageController.initialize(PackageInfoPageController.java:48) ~[classes/:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655) ~[javafx-fxml-16-win.jar:?]
+	... 67 more
+18:10:35.808 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+18:10:39.146 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+18:10:39.414 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+18:10:51.303 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: 
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/packageInfoPage.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.PackageInfoPage.start(PackageInfoPage.java:22) ~[classes/:?]
+	at com.interncell.controllers.InfoPageController.showAction(InfoPageController.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.interncell.controllers.PackageInfoPageController.initialize(PackageInfoPageController.java:48) ~[classes/:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655) ~[javafx-fxml-16-win.jar:?]
+	... 67 more
+18:24:04.490 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+18:24:08.451 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+18:24:08.722 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+18:29:43.145 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+18:29:46.054 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+18:29:46.347 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+18:29:47.561 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: 
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/packageInfoPage.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.PackageInfoPage.start(PackageInfoPage.java:25) ~[classes/:?]
+	at com.interncell.controllers.InfoPageController.showAction(InfoPageController.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class com.interncell.models.Package (java.util.ArrayList is in module java.base of loader 'bootstrap'; com.interncell.models.Package is in module com.interncell@1.0 of loader 'app')
+	at com.interncell.controllers.PackageInfoPageController.initialize(PackageInfoPageController.java:57) ~[classes/:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655) ~[javafx-fxml-16-win.jar:?]
+	... 67 more
+18:53:24.958 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+18:53:28.075 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+18:53:28.346 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:03:25.069 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:03:27.891 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:03:28.162 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:03:30.394 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: 
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/packageInfoPage.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.PackageInfoPage.start(PackageInfoPage.java:25) ~[classes/:?]
+	at com.interncell.controllers.InfoPageController.showAction(InfoPageController.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:372) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:459) ~[?:?]
+	at com.interncell.controllers.PackageInfoPageController.initialize(PackageInfoPageController.java:65) ~[classes/:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655) ~[javafx-fxml-16-win.jar:?]
+	... 67 more
+19:11:44.569 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:11:48.079 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:11:48.344 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:14:00.711 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:14:03.093 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:14:03.362 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:15:45.473 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:15:48.487 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:15:48.777 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:17:31.138 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:17:34.649 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:17:34.915 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:19:54.121 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:19:56.632 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:19:56.899 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:31:51.373 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:31:53.853 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:31:54.125 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:32:11.578 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:32:14.712 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:32:14.983 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:32:52.290 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:32:54.809 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:32:55.084 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:34:12.933 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:34:19.806 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:34:20.072 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:34:58.063 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:35:01.133 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:35:01.398 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:35:47.401 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:35:50.523 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:35:50.796 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+19:36:49.169 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+19:37:01.982 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+19:37:02.274 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5

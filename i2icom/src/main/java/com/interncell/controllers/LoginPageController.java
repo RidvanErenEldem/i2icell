@@ -31,13 +31,16 @@ public class LoginPageController {
     static final Logger logger = LogManager.getLogger(LoginPageController.class);
     @FXML protected void loginBtnAction(ActionEvent event)
     {
+        msisdn.setText("5347772945");
+        password.setText("password.534945.password");
         String debugText = "Login: " + msisdn.getText() + " " + password.getText();
         logger.debug(debugText);
         Stage stage = new Stage();
-        ApiConnector api = new ApiConnector("http://localhost:8080/api/login");
+        ApiConnector api = new ApiConnector("http://localhost:8080/api");
         try {
-            User user = api.isAuthenticated(msisdn.getText(), password.getText());
-            if(user !=null)
+            String endPoint = "/login";
+            User user = api.login(endPoint, msisdn.getText(), password.getText());
+            if(user.isLoginSuccess() == true)
             {
                 logger.info(user.getEmail() +" "+ user.getName()+ " "+user.getLastName()+ " "+ user.getMsisdn() +" "+ user.getUserId());
                 new InfoPage().start(stage, user);

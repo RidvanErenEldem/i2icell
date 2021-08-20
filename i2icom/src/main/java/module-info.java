@@ -5,6 +5,7 @@ module com.interncell {
     requires transitive org.apache.logging.log4j;
     requires transitive com.google.gson;
     requires transitive com.jfoenix;
+    requires transitive com.fasterxml.jackson.databind;
     
     
     opens com.interncell;
