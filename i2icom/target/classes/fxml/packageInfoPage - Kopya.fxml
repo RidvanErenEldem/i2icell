@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #00B796;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.interncell.controllers.PackageInfoPageController">
+   <content>
+      <AnchorPane fx:id="anchor" minHeight="0.0" minWidth="0.0" prefHeight="719.0" prefWidth="1265.0" style="-fx-background-color: #00B796;">
+         <children>
+            <Rectangle disable="true" fill="WHITE" height="70.0" layoutX="369.0" layoutY="32.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="15.0" strokeWidth="15.0" width="519.0">
+               <effect>
+                  <DropShadow offsetX="10.0" offsetY="10.0">
+                     <color>
+                        <Color opacity="0.5" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Label layoutX="487.0" layoutY="45.0" text="Package Information">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="141.0" text="Voice">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Polygon fill="#001689" layoutX="-586.0" layoutY="281.0" points="662.853271484375, -110.89705657958984, 672.9218139648438, -132.93850708007812, 684.1590576171875, -110.93252563476562" rotate="90.0" stroke="#001689" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="76.853271484375" AnchorPane.topAnchor="148.06149291992188" />
+            <Polygon fill="#9c0000" layoutX="-586.0" layoutY="663.0" points="662.853271484375, -110.89705657958984, 672.9218139648438, -132.93850708007812, 684.1590576171875, -110.93252563476562" rotate="90.0" stroke="#001689" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon fill="#0c9c00" layoutX="-586.0" layoutY="471.0" points="662.853271484375, -110.89705657958984, 672.9218139648438, -132.93850708007812, 684.1590576171875, -110.93252563476562" rotate="90.0" stroke="#001689" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" />
+            <Label layoutX="106.0" layoutY="332.0" text="Sms">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="523.0" text="Data">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fill="WHITE" height="140.0" layoutY="179.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.leftAnchor="76.0" AnchorPane.topAnchor="176.5">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="853.0" layoutY="182.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.rightAnchor="83.5">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="420.0" layoutY="184.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.leftAnchor="462.5">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="83.0" layoutY="375.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.leftAnchor="76.0">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="860.0" layoutY="375.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.rightAnchor="76.0">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="469.0" layoutY="375.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.leftAnchor="462.5">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="85.0" layoutY="566.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.leftAnchor="76.0">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="862.0" layoutY="566.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.rightAnchor="76.0">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fill="WHITE" height="140.0" layoutX="471.0" layoutY="566.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="15.0" width="321.0" AnchorPane.leftAnchor="462.5">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.25" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Circle fx:id="voiceCircle2" fill="#940000" layoutX="537.0" layoutY="254.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="537.0" layoutY="254.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="voiceCircle1" fill="#940000" layoutX="152.0" layoutY="254.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" AnchorPane.topAnchor="203.5" />
+            <Circle fill="WHITE" layoutX="152.0" layoutY="254.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="smsCircle2" fill="#940000" layoutX="537.0" layoutY="445.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="537.0" layoutY="445.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="smsCircle1" fill="#940000" layoutX="152.0" layoutY="445.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="152.0" layoutY="445.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="dataCircle2" fill="#940000" layoutX="537.0" layoutY="636.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="537.0" layoutY="636.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="dataCircle1" fill="#940000" layoutX="152.0" layoutY="636.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="152.0" layoutY="636.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="voiceCircle3" fill="#940000" layoutX="925.0" layoutY="254.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="925.0" layoutY="254.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="smsCircle3" fill="#940000" layoutX="925.0" layoutY="445.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="925.0" layoutY="445.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fx:id="dataCircle3" fill="#940000" layoutX="925.0" layoutY="636.0" radius="50.0" stroke="WHITE" strokeLineCap="ROUND" />
+            <Circle fill="WHITE" layoutX="925.0" layoutY="636.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Label layoutX="92.0" layoutY="179.0" text="New Year 2GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="480.0" layoutY="179.0" text="Max 10GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="868.0" layoutY="179.0" text="Max 10GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="92.0" layoutY="370.0" text="New Year 2GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="480.0" layoutY="370.0" text="Max 10GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="868.0" layoutY="370.0" text="Max 10GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="92.0" layoutY="559.0" text="New Year 2GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="480.0" layoutY="559.0" text="Max 10GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="868.0" layoutY="559.0" text="Max 10GB">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="315.0" layoutY="184.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1088.0" layoutY="184.0" text="Package Ends" AnchorPane.rightAnchor="92.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="184.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="315.0" layoutY="564.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="564.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1088.0" layoutY="564.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="315.0" layoutY="374.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="374.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1088.0" layoutY="374.0" text="Package Ends">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="voiceEndDate1" layoutX="315.0" layoutY="200.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="voiceEndDate3" layoutX="1088.0" layoutY="200.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="voiceEndDate2" layoutX="697.0" layoutY="200.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="smsEndDate1" layoutX="315.0" layoutY="391.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="smsEndDate2" layoutX="697.0" layoutY="391.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="smsEndDate3" layoutX="1088.0" layoutY="391.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="dataEndDate1" layoutX="315.0" layoutY="581.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="dataEndDate3" layoutX="1088.0" layoutY="581.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="dataEndDate2" layoutX="697.0" layoutY="581.0" text="20.08.2021">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="220.0" text="Used Minutes:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="220.0" text="Used Minutes:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="220.0" text="Used Minutes:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="411.0" text="Used Sms:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="411.0" text="Used Sms:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="411.0" text="Used Sms:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="601.0" text="Used MB">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="601.0" text="Used MB">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="601.0" text="Used MB">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedMinutes1" layoutX="265.0" layoutY="239.0" text="600">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedMinutes3" layoutX="1038.0" layoutY="239.0" text="600">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedMinutes2" layoutX="647.0" layoutY="239.0" text="600">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedSms1" layoutX="265.0" layoutY="432.0" text="100">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedSms3" layoutX="1038.0" layoutY="432.0" text="100">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedSms2" layoutX="647.0" layoutY="432.0" text="100">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedMB1" layoutX="265.0" layoutY="623.0" text="1900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedMB2" layoutX="647.0" layoutY="623.0" text="1900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usedMB3" layoutX="1038.0" layoutY="623.0" text="1900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="258.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="258.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="258.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="451.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="451.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="451.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="642.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="647.0" layoutY="642.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1038.0" layoutY="642.0" text="Remaining">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMinutes1" layoutX="265.0" layoutY="280.0" text="400">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMinutes3" layoutX="1038.0" layoutY="280.0" text="400">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMinutes2" layoutX="647.0" layoutY="280.0" text="400">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingSms1" layoutX="265.0" layoutY="471.0" text="900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingSms3" layoutX="1038.0" layoutY="472.0" text="900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingSms2" layoutX="647.0" layoutY="472.0" text="900">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMB1" layoutX="265.0" layoutY="662.0" text="148">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMB2" layoutX="647.0" layoutY="662.0" text="148">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="remainingMB3" layoutX="1038.0" layoutY="662.0" text="148">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <fx:define>
+            <ArrayList fx:id="circleList">
+               <fx:reference source="voiceCircle1" />
+               <fx:reference source="smsCircle1" />
+               <fx:reference source="dataCircle1" />
+               <fx:reference source="voiceCircle2" />
+               <fx:reference source="smsCircle2" />
+               <fx:reference source="dataCircle2" />
+               <fx:reference source="voiceCircle3" />
+               <fx:reference source="smsCircle3" />
+               <fx:reference source="dataCircle3" />
+            </ArrayList>
+            <ArrayList fx:id="endDateList">
+               <fx:reference source="voiceEndDate1" />
+               <fx:reference source="smsEndDate1" />
+               <fx:reference source="dataEndDate1" />
+               <fx:reference source="voiceEndDate2" />
+               <fx:reference source="smsEndDate2" />
+               <fx:reference source="dataEndDate2" />
+               <fx:reference source="voiceEndDate3" />
+               <fx:reference source="smsEndDate3" />
+               <fx:reference source="dataEndDate3" />
+            </ArrayList>
+            <ArrayList fx:id="usedMBs">
+               <fx:reference source="usedMB1" />
+               <fx:reference source="usedMB2" />
+               <fx:reference source="usedMB3" />
+            </ArrayList>
+            <ArrayList fx:id="usedMinutes">
+               <fx:reference source="usedMinutes1" />
+               <fx:reference source="usedMinutes2" />
+               <fx:reference source="usedMinutes3" />
+            </ArrayList>
+            <ArrayList fx:id="usedSmss">
+               <fx:reference source="usedSms1" />
+               <fx:reference source="usedSms2" />
+               <fx:reference source="usedSms3" />
+            </ArrayList>
+            <ArrayList fx:id="remainMinutes">
+               <fx:reference source="remainingMinutes1" />
+               <fx:reference source="remainingMinutes2" />
+               <fx:reference source="remainingMinutes3" />
+            </ArrayList>
+            <ArrayList fx:id="remainMBs">
+               <fx:reference source="remainingMB1" />
+               <fx:reference source="remainingMB2" />
+               <fx:reference source="remainingMB3" />
+            </ArrayList>
+            <ArrayList fx:id="remainSmss">
+               <fx:reference source="remainingSms1" />
+               <fx:reference source="remainingSms2" />
+               <fx:reference source="remainingSms3" />
+            </ArrayList>
+         </fx:define>
+      </AnchorPane>
+   </content>
+</ScrollPane>

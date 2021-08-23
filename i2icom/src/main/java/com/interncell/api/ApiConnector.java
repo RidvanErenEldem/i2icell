@@ -16,12 +16,16 @@ import com.interncell.models.RegisterConfirm;
 import com.interncell.models.RegisterConfirmResult;
 import com.interncell.models.RegisterResult;
 import com.interncell.models.User;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.interncell.models.Package;
 
 
 
 public class ApiConnector {
-
+    static final Logger logger = LogManager.getLogger(ApiConnector.class);
     private String url;
 
     public User login(String path, String msisdn, String password) throws IOException {
@@ -61,6 +65,7 @@ public class ApiConnector {
         con.setRequestProperty("Content-Type", "application/json; utf-8");
         con.setRequestProperty("Authorization", "Bearer "+user.getJwt());
         int responseCode = con.getResponseCode();
+        logger.info("Get packages response code is: ", responseCode);
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(con.getInputStream()));
         String output;
