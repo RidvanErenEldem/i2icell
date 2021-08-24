@@ -8,6 +8,7 @@ C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\Validation.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\Register.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\controllers\MainController.java
+C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\RegisterResultHolder.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\controllers\InfoPageController.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\api\ApiConnector.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\LoginPage.java
@@ -20,9 +21,11 @@ C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\controllers\PackageInfoPageController.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\ForgotPasswordConfirm.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\User.java
+C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\controllers\registerValidationPageController.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\Package.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\Main.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\ForgotPasswordResponse.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\controllers\LoginPageController.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\models\PackageHolder.java
+C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\registerValidationPage.java
 C:\Users\ridva\Desktop\JavaFX\i2icom\i2icom\src\main\java\com\interncell\controllers\RegisterPageController.java

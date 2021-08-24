@@ -31,8 +31,6 @@ public class LoginPageController {
     static final Logger logger = LogManager.getLogger(LoginPageController.class);
     @FXML protected void loginBtnAction(ActionEvent event)
     {
-        msisdn.setText("5347772945");
-        password.setText("password.534945.password");
         String debugText = "Login: " + msisdn.getText() + " " + password.getText();
         logger.debug(debugText);
         Stage stage = new Stage();

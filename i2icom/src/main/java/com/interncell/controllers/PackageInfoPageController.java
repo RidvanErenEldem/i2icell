@@ -14,6 +14,7 @@ import javafx.scene.effect.BlurType;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.LinearGradient;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
@@ -73,10 +74,26 @@ public class PackageInfoPageController implements Initializable {
         anchor.getChildren().add(label);
     }
 
-    private void CreateCircleBar(int x, int y)
+    private void CreateCircleBar(int x, int y, double usedAmount, double remainingAmount)
     {
+        double totalAmount = remainingAmount+usedAmount;
+        double greenPercentage  = 100*usedAmount/totalAmount;
+        double redPercentage = 100-greenPercentage;
+
+        int red = (int) Math.floor(redPercentage);
+        int green = (int) Math.ceil(greenPercentage);
+
+        
         Circle outerCircle = new Circle(x,y,50);
-        outerCircle.setFill(Color.rgb(148,0,0));
+        LinearGradient g = LinearGradient.valueOf(
+    "from 0.0% 0.0% to 0.0% 100.0% "+    // from top to bottom
+    "rgb(148, 0, 0) 0%, "+               // red at the top
+    "rgb(148, 0, 0) "+red+"%, "+  // red at percentage
+    "rgb(14, 147, 0) "+green+"%, "+ // green at percentage
+    "rgb(14, 147, 0) 100%"               // green at the bottom
+);
+        //LinearGradient g = LinearGradient.valueOf("from 0.0% 100.0% to 0.0% 0.0% rgb(14,170,0) 0.0%, rgb(14,170,0) "+(100-percentage)+"%, rgb(148,0,0) "+percentage+"%,rgb(148,0,0) 100.0%");
+        outerCircle.setFill(g);
         anchor.getChildren().add(outerCircle);
         Circle innerCircle = new Circle(x,y,39);
         innerCircle.setFill(Color.WHITE);
@@ -159,7 +176,7 @@ public class PackageInfoPageController implements Initializable {
                 CreateLabel(remainingMinutes,"BOLD",InfoXPosition,InfoYPosition+60,18);
                 title = pack.get(i).getPackageName();
                 CreateLabel(title,"BOLD",TitleXPositon,TitleYPositon,18);
-                CreateCircleBar(CircleXPosition, CircleYPosition);
+                CreateCircleBar(CircleXPosition, CircleYPosition,Integer.parseInt(usedMinutes),Integer.parseInt(remainingMinutes));
                 forVoice++;
             } 
             else if ("s".equals(packageType))
@@ -202,7 +219,7 @@ public class PackageInfoPageController implements Initializable {
                 CreateLabel(remainSms,"BOLD",InfoXPosition,InfoYPosition+60,18);
                 title = pack.get(i).getPackageName();
                 CreateLabel(title, "BOLD",TitleXPositon,TitleYPositon,18);
-                CreateCircleBar(CircleXPosition, CircleYPosition);
+                CreateCircleBar(CircleXPosition, CircleYPosition,Integer.parseInt(usedSms),Integer.parseInt(remainSms));
                 forSms++;
             } 
             else if ("d".equals(packageType)) 
@@ -243,7 +260,7 @@ public class PackageInfoPageController implements Initializable {
                 CreateLabel(remainMB,"BOLD",InfoXPosition,InfoYPosition+60,18);
                 title = pack.get(i).getPackageName();
                 CreateLabel(title,"BOLD",TitleXPositon,TitleYPositon,18);
-                CreateCircleBar(CircleXPosition, CircleYPosition);
+                CreateCircleBar(CircleXPosition, CircleYPosition,Integer.parseInt(usedMB),Integer.parseInt(remainMB));
                 forData++;
             }
             RectangleXPositon = RectangleXPositon + 387;
@@ -259,7 +276,8 @@ public class PackageInfoPageController implements Initializable {
                 InfoXPosition = 265;
             if(TitleXPositon > 866)
                 TitleXPositon = 92;
-            
+            if(CircleXPosition > 1312)
+                CircleXPosition = 152;
         }
     }
 

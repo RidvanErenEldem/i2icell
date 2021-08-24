@@ -1,101 +1,465 @@
-14:43:06.446 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-14:45:17.693 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-14:45:21.156 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-14:45:21.438 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:00:18.539 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:00:34.836 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:00:35.110 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:12:21.289 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:12:27.238 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:12:27.523 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:16:53.924 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:16:57.210 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:16:57.488 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:20:18.491 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:20:21.467 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:20:21.737 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:20:22.593 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:24:22.659 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:24:30.479 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:24:30.750 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:24:31.966 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:24:56.393 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:24:59.627 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:24:59.901 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:25:00.818 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:25:37.745 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:25:40.942 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:25:41.221 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:25:42.009 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:28:52.890 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:28:55.414 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:28:55.686 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:28:57.728 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:31:07.828 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:31:11.380 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:31:11.663 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:31:12.451 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:36:07.868 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:36:10.994 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:36:11.261 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:36:12.029 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:43:17.830 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:43:20.838 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:43:21.112 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:43:21.894 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:47:13.832 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:47:17.322 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:47:17.599 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:47:18.347 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-15:57:00.052 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-15:57:05.247 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-15:57:05.520 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-15:57:06.399 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:24:25.109 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:24:28.770 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:24:29.341 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:24:37.040 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:30:27.488 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:30:31.092 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:30:31.362 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:30:32.087 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:33:33.186 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:33:37.543 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:33:37.809 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:33:38.898 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:38:03.850 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:38:08.557 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:38:08.821 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:38:09.572 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:38:41.542 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:38:44.135 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:38:44.404 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:38:45.133 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:48:16.105 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:48:20.654 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:48:20.913 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:48:21.792 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:51:04.662 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:51:10.083 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:51:10.342 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:51:11.091 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:51:47.222 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:51:52.125 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:51:52.399 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:51:53.160 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:53:37.486 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:53:42.618 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:53:42.917 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:53:43.790 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-16:54:49.516 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-16:54:52.553 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-16:54:52.822 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-16:54:55.584 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-17:00:22.782 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-17:00:25.366 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-17:00:25.634 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-17:00:26.562 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
-17:02:10.777 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
-17:02:13.288 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
-17:02:13.560 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
-17:02:14.294 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+12:58:56.992 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:57.654 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:57.975 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:58.281 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:58.469 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:58.594 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:58.848 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:59.178 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:59.351 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+12:58:59.480 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+12:58:59.714 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+12:59:00.926 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:01.276 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:01.394 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:01.808 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:02.605 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:02.836 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:03.071 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:03.714 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:04.197 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:04.447 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+12:59:04.660 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: true
+12:59:12.627 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - null
+12:59:12.627 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Rýdvan Eren Eldem ridvaneren2012@gmail.com 5078673368 pamuk206 pamuk206
+12:59:30.887 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - null
+12:59:30.888 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Rýdvan Eren Eldem ridvaneren2012@gmail.com 5078673368 pamuk206 pamuk206
+13:22:04.760 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+13:22:12.493 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:12.749 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:12.916 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.038 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.294 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.418 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.535 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.728 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.898 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:13.951 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:14.088 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:14.681 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:14.874 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:15.088 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:15.209 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:15.714 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:15.960 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:16.086 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:17.023 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:17.163 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:17.397 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:17.795 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:17.956 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:22:18.137 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+13:22:18.376 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+13:22:18.571 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:19.537 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:19.734 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:19.977 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:20.224 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:20.478 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:20.730 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:21.024 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:21.233 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:21.429 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:22:21.634 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: true
+13:22:30.529 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.Register@4984d7d4 ridvaneren2012@gmail.com
+13:22:30.539 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Rýdvan Eren Eldem ridvaneren2012@gmail.com 5078673368 pamuk206 pamuk206
+13:36:47.468 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+13:37:05.838 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:06.827 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:06.944 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:07.310 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:07.568 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:07.734 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:07.830 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:08.225 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:08.424 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:08.517 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:08.643 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:09.271 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:09.449 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:09.644 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:09.760 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:10.758 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:11.157 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:11.313 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:11.497 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:11.935 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:12.928 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:13.271 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:13.464 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+13:37:13.621 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+13:37:14.017 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+13:37:14.376 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:23.252 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:23.453 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:23.867 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:25.706 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:27.460 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:29.655 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:30.816 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:31.033 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:31.345 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+13:37:31.853 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: true
+14:10:04.459 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:10:12.951 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:14.143 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:14.262 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:14.751 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:14.924 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:15.311 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:15.520 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:15.648 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:15.862 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:15.998 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:16.105 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:16.242 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:16.344 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:16.476 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:16.581 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:17.331 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:17.556 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:17.798 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:17.922 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:18.479 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:18.779 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:19.093 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:19.220 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:19.377 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:19.649 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:19.889 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:20.051 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:10:20.192 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+14:10:20.422 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+14:10:20.634 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:10:22.992 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:10:23.605 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:10:23.830 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:10:24.580 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:10:24.963 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:17:47.926 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:18:31.709 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:18:34.663 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+14:18:35.552 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+14:18:39.803 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+14:19:41.799 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:19:49.448 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:50.206 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:50.300 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:50.449 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:50.675 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:50.772 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:50.890 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:51.046 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:51.139 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:51.239 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:51.333 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:51.926 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:52.114 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:52.301 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:52.417 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:53.077 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:53.299 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:53.439 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:53.613 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:53.753 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:53.993 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:54.223 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:54.335 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+14:19:54.496 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+14:19:54.749 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+14:19:54.933 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:56.164 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:56.323 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:56.505 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:57.269 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:57.525 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:57.853 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:58.098 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:58.391 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:59.476 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:59.656 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:19:59.920 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+14:20:00.529 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: true
+14:20:07.799 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.Register@3582d449 ridvaneren2012@gmail.com
+14:20:07.799 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Rýdvan Eren Eldem ridvaneren2012@gmail.com 5078673368 pamuk206 pamuk206
+14:20:08.115 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.RegisterResult@61f6debb
+15:03:54.941 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:04:02.474 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:02.885 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:03.173 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:03.267 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:03.453 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:03.613 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:03.796 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:03.949 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:04.054 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:04.187 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:04.301 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:04.853 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:05.044 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:05.231 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:05.376 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:05.883 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:06.113 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:06.243 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:06.590 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:06.714 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:06.944 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:07.187 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:07.404 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:04:07.507 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+15:04:07.771 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+15:04:08.042 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:13.369 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:13.587 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:13.775 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:14.317 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:14.518 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:14.793 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:15.889 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:16.049 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:16.228 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:04:16.456 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: true
+15:04:36.201 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.Register@4a6e5af6 ridvaneren2012@gmail.com
+15:04:36.214 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Rýdvan Eren Eldem ridvaneren2012@gmail.com 5078673368 pamuk206 pamuk206
+15:04:36.491 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.RegisterResult@41e707d3
+15:04:36.504 [JavaFX Application Thread] WARN  com.interncell.SetStage - Can't load fxml file: 
+javafx.fxml.LoadException: Error resolving onAction='#validate', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/ridva/Desktop/JavaFX/i2icom/i2icom/target/classes/fxml/registerValidationPage.fxml:75
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$Element.processEventHandlerAttributes(FXMLLoader.java:620) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ValueElement.processEndElement(FXMLLoader.java:780) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.processEndElement(FXMLLoader.java:2924) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2639) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3323) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3280) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3249) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3222) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3199) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:3192) ~[javafx-fxml-16-win.jar:?]
+	at com.interncell.SetStage.stageSetter(SetStage.java:21) ~[classes/:?]
+	at com.interncell.registerValidationPage.start(registerValidationPage.java:10) ~[classes/:?]
+	at com.interncell.controllers.RegisterPageController.registerBtnAction(RegisterPageController.java:95) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-16-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857) ~[javafx-fxml-16-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729) ~[javafx-fxml-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8889) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-16-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-16-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-16-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851) ~[javafx-graphics-16-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-16-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-16-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-16-win.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:07:38.651 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:07:46.584 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:46.936 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.104 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.256 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.442 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.560 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.698 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.835 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:47.984 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:48.048 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:48.161 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:48.707 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:48.890 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:49.084 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:49.236 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:49.765 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:50.002 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:50.160 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:50.427 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:50.680 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:50.934 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:51.155 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:51.315 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+15:07:51.429 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+15:07:51.693 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+15:07:51.857 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:52.533 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:52.689 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:52.939 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:53.160 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:53.385 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:53.651 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:53.926 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:54.122 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:54.343 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:54.539 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: true
+15:07:58.427 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:07:58.534 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+15:08:08.265 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.Register@3e48772e ridvaneren2012@gmail.com
+15:08:08.274 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Rýdvan Eren Eldem ridvaneren2012@gmail.com 905078673368 pamuk206 pamuk206
+15:08:08.547 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.RegisterResult@2dc2c281
+16:06:04.786 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:06:10.050 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:10.408 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:10.575 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:10.714 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:10.780 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:11.167 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:11.328 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:11.483 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:11.867 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:14.340 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:15.101 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:15.217 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:15.328 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:15.441 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:16.019 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:16.138 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:16.209 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:16.554 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:16.783 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:17.307 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:17.461 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:18.130 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:18.336 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:18.458 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:18.600 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:18.741 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:19.833 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:20.057 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:20.216 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: false
+16:06:20.330 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+16:06:20.605 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - email is: true
+16:06:20.837 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:21.878 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:22.049 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:22.263 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:22.510 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:22.712 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:23.136 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:23.367 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:23.597 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:23.901 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:24.127 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:24.313 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:24.529 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - msisdn is: false
+16:06:30.868 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.Register@5f2d2547 erenvehbi18@gmail.com
+16:06:30.876 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - Register Eren Eldem erenvehbi18@gmail.com 905078673368 pamuk206 pamuk206
+16:06:31.154 [JavaFX Application Thread] INFO  com.interncell.controllers.RegisterPageController - com.interncell.models.RegisterResult@206ede0f
+16:21:41.162 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:21:43.677 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+16:21:44.446 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+16:21:49.837 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:22:13.288 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:22:28.090 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:22:36.139 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 905078673668 pamuk206
+16:22:37.041 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - ridvaneren2012@gmail.com Ridvan Eldem 905078673668 302
+16:22:43.775 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:39:39.800 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:44:26.971 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:44:34.653 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 123
+16:44:34.933 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - wrong
+16:45:42.832 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:45:46.767 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:45:52.945 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 123
+16:45:53.219 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - wrong
+16:46:02.474 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 123
+16:46:59.387 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 password.534945.password
+16:47:04.842 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:47:05.066 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:47:07.469 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 password.534945.password
+16:47:14.499 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 password.534945.password
+16:47:20.003 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:47:20.144 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:47:20.973 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 password.534945.password
+16:47:46.958 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:47:47.154 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:48:21.302 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+16:48:21.715 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+16:48:25.611 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:50:40.842 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:50:46.099 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:46.479 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:48.765 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:48.912 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.041 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.187 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.358 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.528 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.655 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.814 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:49.988 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:50:50.184 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:51:03.753 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+16:51:04.471 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+16:51:04.873 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+16:51:07.032 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+22:02:59.481 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+22:03:09.538 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+22:03:14.825 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+22:03:15.398 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+22:03:17.248 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+22:06:26.017 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+22:06:28.969 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+22:06:29.788 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+22:06:30.486 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+22:08:05.954 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+22:08:09.273 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+22:08:09.807 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+22:08:11.147 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+22:11:43.525 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+22:25:53.047 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+22:25:55.427 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login:  
+22:25:55.743 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - wrong
+22:26:02.063 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+22:26:06.387 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 535384193123091 sifre.123
+22:26:06.874 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - deneme@gmail.com register1 register1Last 535384193123091 297
+22:26:11.881 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+22:40:02.874 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+22:40:14.480 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: true
+22:40:21.485 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+22:40:22.039 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+22:40:22.852 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
