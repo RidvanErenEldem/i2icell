@@ -6,7 +6,6 @@ import com.interncell.InfoPage;
 import com.interncell.PasswordRefreshEmail;
 import com.interncell.Validation;
 import com.interncell.api.ApiConnector;
-import com.interncell.models.User;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,12 +32,12 @@ public class LoginPageController {
     {
         String debugText = "Login: " + msisdn.getText() + " " + password.getText();
         logger.debug(debugText);
-        Stage stage = new Stage();
-        ApiConnector api = new ApiConnector("http://localhost:8080/api");
+        var stage = new Stage();
+        var api = new ApiConnector("http://localhost:8080/api");
         try {
             String endPoint = "/login";
-            User user = api.login(endPoint, msisdn.getText(), password.getText());
-            if(user.isLoginSuccess() == true)
+            var user = api.login(endPoint, msisdn.getText(), password.getText());
+            if(user.isLoginSuccess())
             {
                 logger.info(user.getEmail() +" "+ user.getName()+ " "+user.getLastName()+ " "+ user.getMsisdn() +" "+ user.getUserId());
                 new InfoPage().start(stage, user);
@@ -46,7 +45,7 @@ public class LoginPageController {
                 var mainStage = (Stage) source.getScene().getWindow();
                 mainStage.close();
             }
-            else if (isWrongAgain == false)
+            else if (!isWrongAgain)
             {
                 String message = "*Wrong phone number or password";
                 int move = -20;
@@ -57,8 +56,7 @@ public class LoginPageController {
         } 
         catch (IOException e) 
         {
-            logger.info("ahh");
-            e.printStackTrace();
+            logger.error("IOException: ",e);
         }
     }
     

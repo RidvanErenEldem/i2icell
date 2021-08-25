@@ -15,7 +15,7 @@ public class Main extends Application {
     public void start(Stage stage)
     {
         logger.info("Starting");
-        SetStage mainStage = new SetStage();
+        var mainStage = new SetStage();
         mainStage.stageSetter("/main.fxml", stage);
     }
     public static void main(String[] args) {

@@ -3,18 +3,22 @@ package com.interncell;
 import com.interncell.models.User;
 import com.interncell.models.UserHolder;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javafx.stage.Stage;
 
 public class InfoPage {
+    static final Logger logger = LogManager.getLogger(InfoPage.class);
     public void start(Stage stage, User user) {
         try {
-            UserHolder holder = UserHolder.getInstance();
+            var holder = UserHolder.getInstance();
             holder.setUser(user);
-            SetStage infoStage = new SetStage();
+            var infoStage = new SetStage();
             infoStage.stageSetter("/infoPage.fxml", stage);
         }
         catch (Exception e) {
-            System.out.println("Err"+ e.getMessage());
+            logger.error("Error: ", e);
         }
     }
 }

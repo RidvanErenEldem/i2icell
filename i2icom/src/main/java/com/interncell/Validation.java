@@ -1,7 +1,5 @@
 package com.interncell;
 
-import java.util.regex.Matcher;
-
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
@@ -9,8 +7,9 @@ import org.apache.logging.log4j.Logger;
 
 
 public class Validation {
+    private Validation() {}
     static final Logger logger = LogManager.getLogger(Validation.class);
-    static public boolean validate(String text, String whichRegex) 
+    public static boolean validate(String text, String whichRegex) 
     {
         String regex = null;
         switch (whichRegex) {
@@ -23,8 +22,8 @@ public class Validation {
             default:
                 return false;
         }
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(text);
+        var pattern = Pattern.compile(regex);
+        var matcher = pattern.matcher(text);
         if(matcher.matches())
             return true;
         else

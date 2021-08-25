@@ -35,8 +35,7 @@ public class InfoPageController{
     }
 
     public void initialize() {
-        System.out.println("hey");
-        UserHolder holder = UserHolder.getInstance();
+        var holder = UserHolder.getInstance();
         user = holder.getUser();
         name.setText(user.getName());
         lastName.setText(user.getLastName());

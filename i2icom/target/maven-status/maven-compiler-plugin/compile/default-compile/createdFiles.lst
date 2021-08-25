@@ -1,4 +1,3 @@
-com\interncell\registerValidationPage.class
 com\interncell\models\PackageHolder.class
 com\interncell\controllers\PasswordChangePageController.class
 com\interncell\controllers\MainController.class
@@ -14,6 +13,7 @@ com\interncell\controllers\PackageInfoPageController.class
 com\interncell\PackageInfoPage.class
 com\interncell\RegisterPage.class
 com\interncell\models\ForgotPasswordConfirm.class
+com\interncell\RegisterValidationPage.class
 com\interncell\Validation.class
 com\interncell\PasswordRefreshValidationPage.class
 com\interncell\controllers\InfoPageController.class

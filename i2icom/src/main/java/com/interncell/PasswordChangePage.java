@@ -7,9 +7,9 @@ import javafx.stage.Stage;
 
 public class PasswordChangePage {
     public void start(Stage stage, ForgotPasswordConfirm fpc){
-        ForgotPasswordConfirmHolder holder = ForgotPasswordConfirmHolder.getInstance();
+        var holder = ForgotPasswordConfirmHolder.getInstance();
         holder.setForgotPasswordConfirm(fpc);
-        SetStage passwordRefreshValidationStage = new SetStage();
+        var passwordRefreshValidationStage = new SetStage();
         passwordRefreshValidationStage.stageSetter("/passwordChangePage.fxml", stage);
     }
 }

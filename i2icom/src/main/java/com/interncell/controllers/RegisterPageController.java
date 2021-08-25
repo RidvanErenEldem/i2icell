@@ -3,7 +3,7 @@ package com.interncell.controllers;
 import java.io.IOException;
 
 import com.interncell.Validation;
-import com.interncell.registerValidationPage;
+import com.interncell.RegisterValidationPage;
 import com.interncell.api.ApiConnector;
 import com.interncell.models.Register;
 import com.interncell.models.RegisterResult;
@@ -55,7 +55,7 @@ public class RegisterPageController {
         String name = this.name.getText();
         String email = this.email.getText();
         String msisdn = this.msisdn.getText();
-        if(password == null || password.length() == 0 || passwordAgain == password)
+        if(password == null || password.length() == 0 || passwordAgain.equals(password))
             return null;
         else
             register.setPassword(password);
@@ -81,24 +81,23 @@ public class RegisterPageController {
 
     @FXML protected void registerBtnAction(ActionEvent event)
     {
-        Register register = setRegister();
-        logger.info(register + " "+register.getEmail());
         String debugText = "Register "+name.getText()+" "+email.getText()+" "+msisdn.getText()+" "+password.getText()+" "+passwordAgain.getText();
         logger.info(debugText);
         ApiConnector api = new ApiConnector("http://localhost:8080/api");
         try {
+            Register register = setRegister();
             RegisterResult result = api.register("/register",register);
             if(result.isRegisterRequestSuccess())
             {
                 logger.info(result);
                 Stage stage = new Stage();
-                new registerValidationPage().start(stage, result);
+                new RegisterValidationPage().start(stage, result);
                 Node source = (Node)event.getSource(); 
                 var registerStage = (Stage) source.getScene().getWindow();
                 registerStage.close();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.info("IO error: ",e);
         }
         
     }

@@ -13,19 +13,18 @@ import org.apache.logging.log4j.Logger;
 import javafx.stage.Stage;
 
 public class PackageInfoPage {
-    static final Logger logger = LogManager.getLogger(Main.class);
+    static final Logger logger = LogManager.getLogger(PackageInfoPage.class);
     public void start(Stage stage, User user) {
-        ApiConnector api = new ApiConnector("http://localhost:8080/api");
+        var api = new ApiConnector("http://localhost:8080/api");
         List<com.interncell.models.Package> packg;
         try {
-            PackageHolder holder = PackageHolder.getInstance();
+            var holder = PackageHolder.getInstance();
             packg = api.getPackages("/users/"+user.getUserId()+"/package",user);
             holder.setPackage(packg);
-            SetStage packageInfoStage = new SetStage();
+            var packageInfoStage = new SetStage();
             packageInfoStage.stageSetter("/packageInfoPage.fxml", stage);
         } catch (IOException e) {
             logger.error("Can't load fxml file ", e);
-            e.printStackTrace();
         }
         
     }

@@ -171,3 +171,23 @@ Connection refused: connect
 23:10:27.069 [JavaFX Application Thread] INFO  com.interncell.controllers.PasswordRefreshEmailController - is email: false
 23:10:27.200 [JavaFX Application Thread] INFO  com.interncell.controllers.PasswordRefreshEmailController - is email: true
 23:10:27.461 [JavaFX Application Thread] INFO  com.interncell.controllers.PasswordRefreshEmailController - is email: true
+00:51:40.646 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+01:05:58.271 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+01:16:22.273 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+01:17:36.360 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:36.571 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:37.091 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:37.501 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:37.895 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:39.665 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:39.849 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:40.223 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:40.736 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:40.920 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:41.122 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:41.510 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - msisdn is: false
+01:17:49.782 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 905056281999 pamuk206
+01:17:50.656 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - wrong
+01:17:56.465 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 905056281999 123456789
+01:17:56.986 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - ridvaneren2014@gmail.com Huseyin Muhammet Ramazan 905056281999 321
+01:18:04.191 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 

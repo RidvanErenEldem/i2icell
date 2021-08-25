@@ -70,8 +70,7 @@ public class registerValidationPageController implements Initializable{
             }
                 
         } catch (IOException e) {
-            message.setText("Opps");
-            e.printStackTrace();
+            logger.error("IO error: ", e);
         }
     }
 }

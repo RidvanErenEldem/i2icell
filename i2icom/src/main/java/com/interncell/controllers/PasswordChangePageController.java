@@ -63,8 +63,7 @@ public class PasswordChangePageController implements Initializable {
                     }
 
                 } catch (IOException e) {
-
-                    e.printStackTrace();
+                    logger.error("IOExecption e: ", e);
                 }
 
             } else {

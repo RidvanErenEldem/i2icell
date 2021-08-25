@@ -5,11 +5,11 @@ import com.interncell.models.RegisterResultHolder;
 
 import javafx.stage.Stage;
 
-public class registerValidationPage {
+public class RegisterValidationPage {
     public void start(Stage stage, RegisterResult result) {
-        RegisterResultHolder holder = RegisterResultHolder.getInstance();
+        var holder = RegisterResultHolder.getInstance();
         holder.setRegisterResult(result);
-        SetStage registerValidationStage = new SetStage();
+        var registerValidationStage = new SetStage();
         registerValidationStage.stageSetter("/registerValidationPage.fxml", stage);
     }
 }

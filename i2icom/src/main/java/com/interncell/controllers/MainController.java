@@ -20,13 +20,12 @@ public class MainController {
         loadStage(whatPage,event);
     }
     
-
     public void loadStage(String whatPage, ActionEvent event)
     {
         var stage = new Stage();
-        if(whatPage == "register")
+        if(whatPage.equals("register"))
             new RegisterPage().start(stage);
-        else if(whatPage == "login")
+        else if(whatPage.equals("login"))
             new LoginPage().start(stage);
         Node source = (Node)event.getSource(); 
         var mainStage = (Stage) source.getScene().getWindow();

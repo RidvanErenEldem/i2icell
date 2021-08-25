@@ -53,8 +53,7 @@ public class PasswordRefreshEmailController {
                 }
 
             } catch (IOException e) {
-                e.printStackTrace();
-                logger.error("Error\n"+ e.getMessage());
+                logger.error("Error\n", e);
             }
         } else {
             message.setFont(new Font("System", 18));
