@@ -18,6 +18,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class PasswordChangePageController implements Initializable {
@@ -42,32 +43,43 @@ public class PasswordChangePageController implements Initializable {
     protected void submitAction(ActionEvent event) {
         String password = this.password.getText();
         String passwordAgain = this.passwordAgain.getText();
-        if (password == passwordAgain && password.length() != 0) {
-            fpc.setPassword(password);
-            ApiConnector api = new ApiConnector("http://localhost:8080/api");
-            boolean success;
-            try {
-                success = api.changePasswordStatus("/login/forgot-password/change-password", fpc);
-                if (success) {
-                    logger.info("password changed successfuly");
-                    var stage = new Stage();
-                    new LoginPage().start(stage);
-                    Node source = (Node) event.getSource();
-                    var mainStage = (Stage) source.getScene().getWindow();
-                    mainStage.close();
-                } else
-                {
-                    message.setVisible(true);
-                    message.setText("Network error please try again later.");
-                }
-                    
-            } catch (IOException e) {
+        if (password.equals(passwordAgain)) {
+            if (password.length() != 0) {
+                fpc.setPassword(password);
+                ApiConnector api = new ApiConnector("http://localhost:8080/api");
+                boolean success;
+                try {
+                    success = api.changePasswordStatus("/login/forgot-password/change-password", fpc);
+                    if (success) {
+                        logger.info("password changed successfuly");
+                        var stage = new Stage();
+                        new LoginPage().start(stage);
+                        Node source = (Node) event.getSource();
+                        var mainStage = (Stage) source.getScene().getWindow();
+                        mainStage.close();
+                    } else {
+                        message.setVisible(true);
+                        message.setText("Network error please try again later.");
+                    }
 
-                e.printStackTrace();
+                } catch (IOException e) {
+
+                    e.printStackTrace();
+                }
+
+            } else {
+                message.setVisible(true);
+                message.setText("*Password can't be empty!");
+                message.setTextFill(Color.rgb(114,0,0));
             }
 
-        } else
+        }
+        else
+        {
             message.setVisible(true);
+            message.setTextFill(Color.rgb(114,0,0));
+        }
+            
     }
 
     @Override
