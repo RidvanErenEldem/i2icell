@@ -1,6 +1,8 @@
 com\interncell\registerValidationPage.class
 com\interncell\models\PackageHolder.class
+com\interncell\controllers\PasswordChangePageController.class
 com\interncell\controllers\MainController.class
+com\interncell\models\ForgotPasswordConfirmHolder.class
 com\interncell\PasswordRefreshEmail.class
 com\interncell\models\Packages.class
 com\interncell\api\ApiConnector.class
@@ -13,15 +15,18 @@ com\interncell\PackageInfoPage.class
 com\interncell\RegisterPage.class
 com\interncell\models\ForgotPasswordConfirm.class
 com\interncell\Validation.class
+com\interncell\PasswordRefreshValidationPage.class
 com\interncell\controllers\InfoPageController.class
 module-info.class
 com\interncell\controllers\RegisterPageController.class
 com\interncell\LoginPage.class
 com\interncell\controllers\registerValidationPageController.class
 com\interncell\InfoPage.class
+com\interncell\controllers\PasswordRefreshValidationPageController.class
 com\interncell\controllers\LoginPageController.class
 com\interncell\Main.class
 com\interncell\models\RegisterConfirmResult.class
+com\interncell\PasswordChangePage.class
 com\interncell\models\RegisterResultHolder.class
 com\interncell\models\RegisterResult.class
 com\interncell\models\ChangePasswordConfirmation.class

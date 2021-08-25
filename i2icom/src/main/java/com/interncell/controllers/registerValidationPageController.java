@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import com.interncell.LoginPage;
 import com.interncell.api.ApiConnector;
 import com.interncell.models.RegisterConfirm;
 import com.interncell.models.RegisterResult;
@@ -15,8 +16,10 @@ import org.apache.logging.log4j.Logger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 public class registerValidationPageController implements Initializable{
     @FXML private TextField code;
@@ -41,7 +44,7 @@ public class registerValidationPageController implements Initializable{
         registerResult = holder.getRegisterResult();
         
     }
-    @FXML protected void validateAction(ActionEvent action)
+    @FXML protected void validateAction(ActionEvent event)
     {
         RegisterConfirm confirmation = new RegisterConfirm();
         confirmation.setCodeReceivedViaEmail(code.getText());
@@ -54,6 +57,11 @@ public class registerValidationPageController implements Initializable{
             boolean success = api.registerConfirm(endpoint,confirmation);
             if(success) {
                 logger.info("Register successfully");
+                var stage = new Stage();
+                new LoginPage().start(stage);
+                Node source = (Node) event.getSource();
+                var mainStage = (Stage) source.getScene().getWindow();
+                mainStage.close();
             }
             else
             {
