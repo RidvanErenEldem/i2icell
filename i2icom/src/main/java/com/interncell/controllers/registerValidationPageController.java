@@ -50,7 +50,7 @@ public class registerValidationPageController implements Initializable{
         confirmation.setCodeReceivedViaEmail(code.getText());
         int id = registerResult.getRegisterConfirmationId();
         
-        ApiConnector api = new ApiConnector("http://localhost:8080/api");
+        ApiConnector api = new ApiConnector("");
         String endpoint = "/register/"+id+"/confirm";
         try {
             

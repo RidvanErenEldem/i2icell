@@ -197,7 +197,7 @@ public class ApiConnector {
     }
 
     public ApiConnector(String url) {
-        setUrl(url);
+        setUrl("http://localhost:8080/api");
     }
 
     public ApiConnector() {}

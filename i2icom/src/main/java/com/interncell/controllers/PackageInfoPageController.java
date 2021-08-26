@@ -77,22 +77,15 @@ public class PackageInfoPageController implements Initializable {
     private void CreateCircleBar(int x, int y, double usedAmount, double remainingAmount)
     {
         double totalAmount = remainingAmount+usedAmount;
-        double greenPercentage  = 100*usedAmount/totalAmount;
-        double redPercentage = 100-greenPercentage;
-
-        int red = (int) Math.floor(redPercentage);
-        int green = (int) Math.ceil(greenPercentage);
-
-        
+        double percentage  = 100*usedAmount/totalAmount;
         Circle outerCircle = new Circle(x,y,50);
         LinearGradient g = LinearGradient.valueOf(
     "from 0.0% 0.0% to 0.0% 100.0% "+    // from top to bottom
     "rgb(148, 0, 0) 0%, "+               // red at the top
-    "rgb(148, 0, 0) "+red+"%, "+  // red at percentage
-    "rgb(14, 147, 0) "+green+"%, "+ // green at percentage
+    "rgb(148, 0, 0) "+percentage+"%, "+  // red at percentage
+    "rgb(14, 147, 0) "+percentage+"%, "+ // green at percentage
     "rgb(14, 147, 0) 100%"               // green at the bottom
 );
-        //LinearGradient g = LinearGradient.valueOf("from 0.0% 100.0% to 0.0% 0.0% rgb(14,170,0) 0.0%, rgb(14,170,0) "+(100-percentage)+"%, rgb(148,0,0) "+percentage+"%,rgb(148,0,0) 100.0%");
         outerCircle.setFill(g);
         anchor.getChildren().add(outerCircle);
         Circle innerCircle = new Circle(x,y,39);

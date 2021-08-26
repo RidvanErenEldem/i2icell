@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 public class PackageInfoPage {
     static final Logger logger = LogManager.getLogger(PackageInfoPage.class);
     public void start(Stage stage, User user) {
-        var api = new ApiConnector("http://localhost:8080/api");
+        var api = new ApiConnector("");
         List<com.interncell.models.Package> packg;
         try {
             var holder = PackageHolder.getInstance();

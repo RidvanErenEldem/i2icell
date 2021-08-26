@@ -33,7 +33,7 @@ public class LoginPageController {
         String debugText = "Login: " + msisdn.getText() + " " + password.getText();
         logger.debug(debugText);
         var stage = new Stage();
-        var api = new ApiConnector("http://localhost:8080/api");
+        var api = new ApiConnector("");
         try {
             String endPoint = "/login";
             var user = api.login(endPoint, msisdn.getText(), password.getText());

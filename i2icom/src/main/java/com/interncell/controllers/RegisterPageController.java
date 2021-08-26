@@ -83,7 +83,7 @@ public class RegisterPageController {
     {
         String debugText = "Register "+name.getText()+" "+email.getText()+" "+msisdn.getText()+" "+password.getText()+" "+passwordAgain.getText();
         logger.info(debugText);
-        ApiConnector api = new ApiConnector("http://localhost:8080/api");
+        ApiConnector api = new ApiConnector("");
         try {
             Register register = setRegister();
             RegisterResult result = api.register("/register",register);

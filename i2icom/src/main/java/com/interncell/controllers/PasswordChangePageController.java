@@ -46,7 +46,7 @@ public class PasswordChangePageController implements Initializable {
         if (password.equals(passwordAgain)) {
             if (password.length() != 0) {
                 fpc.setPassword(password);
-                ApiConnector api = new ApiConnector("http://localhost:8080/api");
+                ApiConnector api = new ApiConnector("");
                 boolean success;
                 try {
                     success = api.changePasswordStatus("/login/forgot-password/change-password", fpc);

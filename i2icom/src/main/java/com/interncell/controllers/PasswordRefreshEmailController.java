@@ -34,7 +34,7 @@ public class PasswordRefreshEmailController {
         validationResult = Validation.validate(emailText.getText(), regularExpression);
         if (validationResult) {
             String email = emailText.getText();
-            ApiConnector api = new ApiConnector("http://localhost:8080/api");
+            ApiConnector api = new ApiConnector("");
             try {
                 boolean result = api.forgotPassword("/login/forgot-password", email);
                 if (result) {
